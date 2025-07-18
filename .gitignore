@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtualenv / Python environment
+.env
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+
+# Editor/IDE cruft
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+*.tar
+*.img
+docker-compose.override.yml
+
+# Uvicorn reload artifacts
+*.reload
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
